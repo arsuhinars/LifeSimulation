@@ -21,7 +21,7 @@
     <ClInclude Include="Utils.h" />
     <ClInclude Include="Commands.h" />
     <ClInclude Include="Gene.h" />
-    <ClInclude Include="roboto.h" />
+    <ClInclude Include="RobotoFont.h" />
     <ClInclude Include="IconsMaterialDesign.h" />
   </ItemGroup>
 </Project>

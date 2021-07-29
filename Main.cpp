@@ -1,7 +1,7 @@
 #include <chrono>
 #include <SFML/Graphics.hpp>
 #include <imgui-SFML.h>
-#include "roboto.h"
+#include "RobotoFont.h"
 #include "IconsMaterialDesign.h"
 #include "Config.h"
 #include "World.h"
@@ -468,7 +468,7 @@ void Main::renderAboutWindow()
 	ImGui::NewLine();
 	ImGui::TextUnformatted("It was written on C++ with using:");
 	ImGui::BulletText("SFML - https://www.sfml-dev.org");
-	ImGui::BulletText("ImGui - https://github.com/ocornut/imgui");
+	ImGui::BulletText("Dear ImGui - https://github.com/ocornut/imgui");
 	ImGui::BulletText("JSON for Modern C++ - https://github.com/nlohmann/json");
 
 	ImGui::End();

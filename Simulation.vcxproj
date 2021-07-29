@@ -177,7 +177,7 @@
     <ClInclude Include="IconsMaterialDesign.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Commands.h" />
-    <ClInclude Include="roboto.h" />
+    <ClInclude Include="RobotoFont.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="World.h" />
     <ClInclude Include="Utils.h" />
