@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="World.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-1.83\imgui_tables.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-1.83\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-1.83\imgui.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-1.83\imgui_draw.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-sfml-2.3\imgui-SFML.cpp" />
+    <ClCompile Include="..\..\..\Desktop\imgui-1.83\imgui_demo.cpp" />
+    <ClCompile Include="Gene.cpp" />
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="World.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="Gene.h" />
+    <ClInclude Include="roboto.h" />
+    <ClInclude Include="IconsMaterialDesign.h" />
+  </ItemGroup>
+</Project>
